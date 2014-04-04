@@ -11,6 +11,10 @@ WGET
 =====
 Using this simple tool to get updates.
 
+(REFERENCES)
+--
+http://stackoverflow.com/questions/13533217/how-to-download-all-links-to-zip-files-on-a-given-web-page-using-wget-curl
+
 References (security)
 =====
 http://perishablepress.com/htaccess-password-protection-tricks/
