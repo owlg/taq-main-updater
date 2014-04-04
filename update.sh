@@ -4,7 +4,7 @@ echo 'Creating new package folder'
 mkdir packages
 cd packages
 echo 'Getting updates list...'
-wget --user=demo --password=demouser1 -r -np -l 1 -A zip http://www.owlg.org/update/list.txt
+wget --user=demo --password=demouser1 -r -np -l 1 -A zip http://taq.owlg.org/taqu/list.txt
 echo 'Updates package retrieved.'
 echo 'Expanding update package...'
 unzip *.zip
