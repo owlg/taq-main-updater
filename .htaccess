@@ -1,0 +1,11 @@
+# password protect excluding specific ip
+<IfModule mod_auth.c>
+ AuthName "Username and licence key required to unlock premium support and updates"
+ AuthUserFile .htpasswd
+ AuthType Basic
+ Require valid-user
+ Order Deny,Allow
+ Deny from all
+ Allow from 8.8.8.8
+ Satisfy Any
+</IfModule>
