@@ -12,12 +12,6 @@ echo 'Generating new update list for this server...'
 sdiff listnew.txt currlist.txt >> listupdate.txt
 echo 'Downloading only new packages...'
 wget --user=demo --password=demouser1 -r -np -l 1 -A zip listupdate.txt
-echo 'Changing file names for future updates...'
-mv listnew.txt currlist.txt
-echo 'Removing all generated update lists, and cached lists...'
-rm listupdate.txt
-echo 'cleaned'
-echo 'done'
 
 echo 'Downloading packages and updates in lists...'
 wget --user=demo --password=demouser1 -r -np -l 1 -A zip http://taq.owlg.org/taqu/list.txt
