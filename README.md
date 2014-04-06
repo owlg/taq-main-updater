@@ -2,8 +2,7 @@ taq-main-updater
 ================
 
 Using this software to get and install the main update package for that particular release of T-AQ. Using this update will provide other updates after this update is applied.
-<<<<<<< HEAD
-=======
+
 
 Speed
 =====
@@ -21,4 +20,6 @@ References (security)
 =====
 http://perishablepress.com/htaccess-password-protection-tricks/
 
->>>>>>> 15d8c340de3530b03d828d79ec54465be8e63854
+Something bigger
+==
+http://www.thefanclub.co.za/how-to/how-setup-ubuntu-business-box-server-ubb-part-2
