@@ -1,4 +1,5 @@
 #!/bin/bash
+echo 'Version 0.0.1 release'
 echo 'Updates are only obtained from the certified main server, site for security purposes.'
 echo 'Creating new package folder'
 mkdir packages
