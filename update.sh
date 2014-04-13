@@ -1,6 +1,8 @@
 #!/bin/bash
-echo 'Version 0.0.1 release'
-echo 'Updates are only obtained from the certified main server, site for security purposes.'
+echo 'Version 0.0.2 release'
+echo 'Updates are only obtained from the certified main server and site for security purposes.'
+echo 'For your repository to be accepted, you must file a repo to our servers. Users will be warned of dangerous repo added to their computer.'
+echo 'If your update contains important fixes and good features updates for our current files, feel free to send us your package with a description of the new update and what has been changed.'
 echo 'Creating new package folder'
 mkdir packages
 cd packages
